@@ -1,0 +1,210 @@
+body{
+    background-image: linear-gradient(-45deg ,white,#87bac0,#006e7a);
+    background-repeat: no-repeat;
+    background-size:100%;
+    /* background-color: blue; */
+}
+.header{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: #00292d;
+    text-shadow: 2px 2px 4px #006e7a;
+}
+.header:hover{
+    color: #000a0b;
+    cursor: pointer;
+}
+.contact-auther{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.contact-auther > div {
+    width: 100%;
+
+}
+.inputs{
+    width: 96%;
+    background-color: transparent;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+::placeholder{
+    color: #00292d;
+}
+.message-box{
+    padding: 0.6rem;
+}
+.hed{
+    font-size: 1.3rem;
+    margin: 0.2rem;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    padding-left: 0.4rem;
+}
+.hed:hover{
+    cursor: pointer;
+    color: #000a0b;
+}
+.tele-link{
+    margin-left: 0.8rem;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.link{
+    background-color: blue;
+    color: white;
+    text-decoration-line: underline;
+}
+.link:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.info{
+    padding:0.8rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-bottom: 2.5rem;
+}
+.info > div{
+    flex-wrap: wrap;
+    padding: 0.3rem;
+    border: 2px solid #00292d;
+    border-radius: 0.2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-style: italic;
+    width: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info > div:hover{
+    cursor: pointer;
+}
+.contact-email{
+    background-color: #bc2926;
+}
+.contact-linkedin{
+    background-color: darkblue;
+}
+.contact-phone{
+    background-color: #1cff1c;
+}
+.facebook{
+    background-color: #000096;
+}
+hr{
+    border-top: 2px solid #00292d;
+    margin-right: 3rem;
+}
+.rating{
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-style: italic;
+    color: #000a0b;
+    padding: 0.8rem;
+}
+.rating > input{
+    background-color: transparent;
+    border: 2px solid#000a0b;
+}
+.rate{
+    color: #00292d;
+    text-decoration-line: underline;
+    padding: 0.8rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button > button{
+    width: 7.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#006e7a;
+    border: 2px solid #000a0b;
+    border-radius: 0.3rem;
+    color: white;
+}
+.button > button:hover{
+    cursor: pointer;
+    background-color: #03808e;
+    padding: 0.1rem;
+}
+.b-text{
+    font-size: 1.3rem;
+}
+
+.go_back{
+    background-color: teal;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: italic;
+    border: 2px solid black;
+    border-radius: 1.3rem;
+    height: 2em;
+    width: fit-content;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    margin-right: 0;
+    bottom: 1rem;
+    left: 89%;
+    cursor: pointer;
+}
+@media (max-width:400px){
+    .go_back{
+        font-size: 1rem;
+        padding: 0.4rem;
+    }
+}
+.go_back:hover{
+    padding: 0.6rem;
+    font-size: 1.25rem;
+    background-color: #05c3c3;
+}
+@media (max-width:400px){
+    .go_back:hover{
+        font-size: 1.1rem;
+        padding: 0.5rem;
+    }
+}
+#contact-form{
+    width: 40rem;
+    height: 66rem;
+}
+@media (max-width:660px){
+    #contact-form{
+        width: 95%;
+        height: 80rem;
+    }
+}
+.feedback-form{
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

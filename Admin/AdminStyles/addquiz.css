@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+}
+.header{
+    background-color: #363636;
+    color: gold;
+    font-size: 2.5rem;
+    border: 1px solid gold;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 10px;
+}
+@media(max-width:360px){
+    .header{
+        font-size: 2rem;
+    }
+}
+.outer-header{
+    background-color: black;
+    padding: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-ele{
+    margin-top: 10px;
+}
+label{
+    font-size: 2rem;
+    color: gold;
+    padding: 0.6rem;
+}
+@media(max-width:360px){
+    label{
+        font-size: 1.5rem;
+    }
+}
+textarea{
+    /* color: #fa901f; */
+    color: aqua;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: #363636;
+    width: 97%;
+    height: 3rem;
+}
+@media(max-width:360px){
+    textarea{
+        height: 4rem;
+    }
+}
+input{
+    /* color: #fa901f; */
+    color: aqua;
+    height: 20px;
+    background-color: #363636;
+    border-radius: 0.4rem;
+    padding: 0.1rem 1rem 0.1rem 1rem;
+}
+::placeholder{
+    color: gold;
+}
+.button{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thumb-label{
+    font-size: 1.3rem;
+    border: 1px solid gold;
+    border-radius: 0.4rem;
+}
+#thumb{
+    display: none;
+}
+.next-page-button{
+    height: 2rem;
+    width: 5rem;
+    color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid gold;
+}
+
+#selectedimg{
+    display: none;
+    border: 1px solid gold;
+    border-radius: 5px;
+    margin: 2rem;
+    width: 50%;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+.tag-label{
+    font-size: 20px;
+}
+#tag{
+    font-weight: 800;
+    color: aqua;
+}

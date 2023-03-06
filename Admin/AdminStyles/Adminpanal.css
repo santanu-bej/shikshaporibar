@@ -1,0 +1,157 @@
+.header{
+    border: 2px solid ;
+    margin-bottom: 30px;
+    padding: 5px;
+    background-color: black;
+    height: 35px;  
+}
+.main{
+    display: flex;
+    background-color: #2d3748;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    justify-content: space-between;
+    align-items: center;
+}
+.opsw{
+    display: flex;
+}
+.ops{
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    cursor: pointer;
+    border: 1px solid blue;
+}
+.fstops{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.ops:hover{
+    background-color: #012769;
+}
+.line1{
+    color: white;
+    text-decoration-line: none;
+}
+.line1 > p{
+    font-size: 1rem;
+}
+.search{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.input-search{
+    padding: 0.3rem;
+    border: 1px solid blue;
+    width: 90%;
+}
+.sops{
+    /* border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px; */
+    width: 10%;
+    /* padding-left: 0.4rem;
+    padding-right: 0.4rem; */
+    cursor: pointer;
+    background-color: #2d3748;
+    color: white;
+    border: 1px solid blue;
+    padding: 0.4rem;
+    height: 100%;
+}
+.sops:hover{
+    background-color: #012769;
+}
+.lin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration-line: none;
+}
+.bar{
+    border: 1px solid orange;
+    color:blanchedalmond;
+    font-size: larger;
+    text-align: center;
+    height: 30px;
+    padding: 3px;
+    flex-wrap: wrap;
+}
+
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #dcbfa3;
+    
+}
+
+
+.tile{
+    padding-top: 0.2rem;
+    height: 15rem;
+    width: 17rem;
+    background-color: #ffeddd;
+    border: 1px solid black;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.thmb{
+    width: 98%;
+    cursor: pointer;
+}
+.title{
+    padding: 0.25rem;
+    font-weight: 600;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.actions-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+}
+.action-buttons-ele{
+    display: flex;
+    align-items: center;
+}
+.ops-spl{
+    height: 1rem;
+    padding-right: 0.4rem;
+    cursor: pointer;
+}
+.up-menu{
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.5rem;
+    top: 12rem;
+    left: 7rem;
+    border-radius: 0.2rem;
+    list-style-type: none;
+    display: none;
+}
+.up-menu-ele > a{
+    text-decoration-line: none;
+    color: black;
+}
+.up-menu-ele{
+    padding: 0.3rem;
+    border-bottom: 1px solid black;
+}
+
+.main2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

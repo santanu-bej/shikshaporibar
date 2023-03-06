@@ -1,0 +1,159 @@
+.baric{
+    width: 26px;
+    height: 3px;
+    background-color: #000000;
+    margin: 5px 0;
+    border-radius: 1rem;
+}
+.logo-mob{
+    width: 5rem;
+}
+.title-h-mob{
+    color: #2e5a54;
+    font-size: 3.6rem;
+    font-weight: 900;
+    font-family: 'Atma', cursive;
+}
+.header-mob{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+#menu-button{
+    cursor: pointer;
+}
+#comman-heading-part{
+    background-color: #f1f3f2;
+}
+
+.side-drawer-mob{
+    background-color: #f1f3f2;
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    overflow: hidden;
+    z-index: 5;
+    padding-left: 0rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.sidedrawopen{
+    animation: 0.35s linear drawer;
+    animation-fill-mode: forwards;
+}
+.sidedrawclose{
+    animation: 0.35s linear drawerc;
+    animation-fill-mode: backwards
+}
+@keyframes drawer{
+    0%{
+        width: 0%;
+    }
+    20%{
+        width: 12%;
+    }
+    40%{
+        width: 24%;
+    }
+    60%{
+        width: 36%;
+    }
+    80%{
+        width: 48%;
+        padding-left: 0.5rem;
+    }
+    100%{
+        width: 60%;
+        padding-left: 0.5rem;
+    }
+}
+@keyframes drawerc{
+    0%{
+        width: 60%;
+    }
+    20%{
+        width: 48%;
+    }
+    40%{
+        width: 36%;
+    }
+    60%{
+        width: 24%;
+    }
+    80%{
+        width: 12%;
+        padding-left: 0rem;
+    }
+    100%{
+        width: 0%;
+        padding-left: 0rem;
+    }
+}
+.not-scrollable{
+    height: 100%;
+    overflow: hidden;
+}
+#blur-part-mob{
+    width: 95%;
+    position: fixed;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(1.5px);
+    z-index: 1;
+    display: none;
+}
+.menu-side-mob{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.menu-text{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #434141;
+}
+.line-m-mob{
+    height: 0rem;
+    width: 100%;
+    overflow: hidden;
+}
+.home-mob-a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+.home-mob{
+    margin-top: 1.5rem;
+}
+.home-mob-expend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.expic{
+    padding-right: 1rem;
+}
+.subch-ele-m-mob{
+    padding-left: 0.7rem;
+    font-size: 1.8rem;
+    color: #343434;
+    margin-top: 1rem;
+    transition: 2s all ease-in-out;
+    opacity: 0;
+}
+.subch-m-mob{
+    display: none;
+}
+.fadein {
+    animation: fadeIn 0.9s 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

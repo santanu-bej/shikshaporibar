@@ -1,0 +1,349 @@
+.list-of-doc-items{
+    display:flex;
+    height: auto;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.doc-item{
+    margin-bottom: 0.7rem;
+    /* height: 23rem; */
+    height: auto;
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@media (max-width: 500px) {
+    .doc-item{
+      flex-direction: column;
+      /* height: 32rem; */
+    }
+}
+.thumbline{
+    /* background-color: rebeccapurple; */
+    width: 50%;
+    /* height: inherit; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+@media (max-width: 1000px) {
+    .thumbline{
+      width: 55%;
+    }
+}
+@media (max-width: 860px) {
+    .thumbline{
+      width: 60%;
+    }
+}
+@media (max-width: 500px) {
+    .thumbline{
+      width: 100%;
+      height: 60%;
+    }
+}
+.thumbImg{
+    height:98%;
+    width: 97%;
+}
+.doc-title-desc{
+    /* height: inherit; */
+    height: auto;
+    width: 50%;
+    /* width: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    padding-top: 0.6rem;
+    padding-left: 0.5rem;
+}
+@media (max-width: 1000px) {
+    .doc-title-desc{
+      width: 45%;
+    }
+}
+@media (max-width: 860px) {
+    .doc-title-desc{
+      width: 40%;
+    }
+}
+@media (max-width: 500px) {
+    .doc-title-desc{
+      width: 97%;
+      /* height: 40%; */
+    }
+}
+
+.desc-item{
+    /* background-color: blueviolet; */
+    padding: auto;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+.tag_and_date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.tag{
+    padding: 0.2rem;
+    background-color: #006e7a;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+.tag:hover{
+    cursor: pointer;
+}
+@media(min-width:500px) and (max-width:580px){
+    .tag{
+        padding: 0.1rem;
+        font-size: 1rem;
+    }
+}
+@media(min-width:580px) and (max-width:650px){
+    .tag{
+        padding: 0.15rem;
+        font-size: 1.2rem;
+    }
+}
+@media(min-width:650px) and (max-width:700px){
+    .tag{
+        padding: 0.15rem;
+        font-size: 1.3rem;
+    }
+}
+@media(min-width:1180px){
+    .tag{
+        padding: 0.4rem;
+        font-size: 1.8rem;
+    }
+}
+@media(min-width:1550px){
+    .tag{
+        padding: 0.6rem;
+        font-size: 2rem;
+    }
+}
+@media(max-width:500px){
+    .tag{
+        font-size: 1rem;
+    }
+}
+@media(max-width:400px){
+    .tag{
+        font-size: 0.8rem;
+    }
+}
+@media(min-width:1370px){
+    .tag{
+        font-size: 2.3rem;
+    }
+}
+.upload-date{
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+@media(min-width:1180px){
+    .upload-date{
+        font-size: 1.6rem;
+    }
+}
+@media(max-width:500px){
+    .upload-date{
+        font-size: 0.8rem;
+    }
+}
+@media(min-width:1370px){
+    .upload-date{
+        font-size: 2rem;
+    }
+}
+.title{
+    font-size: 2.5rem;
+}
+@media(min-width:500px) and (max-width:580px){
+    .title-l{
+        padding: 0.1rem;
+        font-size: 1.7rem;
+    }
+}
+@media(min-width:580px) and (max-width:650px){
+    .title-l{
+        /* padding: 0.2rem; */
+        font-size: 1.9rem;
+    }
+}
+@media(min-width:650px) and (max-width:700px){
+    .title-l{
+        /* padding: 0.2rem; */
+        font-size: 2rem;
+    }
+}
+@media(min-width:770px) and (max-width:870px){
+    .title-l{
+        font-size: 2rem;
+    }
+}
+@media(min-width:870px) and (max-width:925px){
+    .title-l{
+        font-size: 2.1rem;
+    }
+}
+@media(max-width:500px){
+    .title{
+        font-size:2rem;
+    }
+}
+@media(max-width:400px){
+    .title{
+        font-size:1.5rem;
+    }
+}
+
+.title-l{
+    text-decoration-line: none;
+    color: black;
+    font-weight: 900;
+}
+@media(min-width:500px) and (max-width:580px){
+    .title-l{
+        padding: 0.1rem;
+        font-size: 1.7rem;
+    }
+}
+@media(min-width:580px) and (max-width:650px){
+    .title{
+        /* padding: 0.2rem; */
+        font-size: 1.9rem;
+    }
+}
+@media(min-width:650px) and (max-width:769px){
+    .title{
+        /* padding: 0.2rem; */
+        font-size: 2rem !important;
+    }
+}
+@media(min-width:770px) and (max-width:870px){
+    .title-l{
+        font-size: 2rem;
+    }
+}
+@media(min-width:870px) and (max-width:925px){
+    .title-l{
+        font-size: 2.1rem;
+    }
+}
+@media(max-width:500px){
+    .title-l{
+        font-size:2rem;
+    }
+}
+@media(max-width:400px){
+    .title-l{
+        font-size:1.5rem;
+    }
+}
+@media(min-width:930px){
+    .title-l{
+        margin-top: 2rem;
+        font-size: 2.5rem;
+    }
+}
+@media(min-width:1180px){
+    .title-l{
+        margin-top: 2rem;
+        font-size: 2.8rem;
+    }
+}
+@media(min-width:1550px){
+    .title-l{
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+}
+@media(min-width:1700px){
+    .title-l{
+        margin-top: 2rem;
+        font-size: 4.5rem !important;
+    }
+}
+@media(min-width:1370px){
+    .title-l{
+        font-size:3.5rem;
+    }
+}
+@media(min-width:2125px){
+    .title-l{
+        font-size: 5rem;
+    }
+}
+.description{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+@media(min-width:500px) and (max-width:580px){
+    .description{
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+}
+@media(min-width:580px) and (max-width:650px){
+    .description{
+        margin-top: 1rem;
+        font-size: 1.1rem;
+    }
+}
+@media(min-width:650px) and (max-width:700px){
+    .description{
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+}
+@media(min-width:770px) and (max-width:870px){
+    .description{
+        margin-top: 1rem;
+        font-size: 1.1rem;
+    }
+}
+@media(min-width:1180px){
+    .description{
+        font-size: 1.7rem;
+        /* color: blue; */
+    }
+}
+@media(max-width:500px){
+    .description{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:400px){
+    .description{
+        font-size:1rem;
+    }
+}
+@media(min-width:1370px){
+    .description{
+        font-size: 2rem;
+    }
+}
+@media(min-width:1700px){
+    .description{
+        font-size: 2.3rem;
+    }
+}
+@media(min-width:2125px){
+    .description{
+        font-size: 2.7rem;
+    }
+}

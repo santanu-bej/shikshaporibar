@@ -1,0 +1,56 @@
+.quiz-result{
+    display: none;
+    background-color: #f2f2f2;
+    border: 0.3rem solid #8b8b8b;
+    border-radius: 2rem;
+    align-self: center;
+}
+.quiz-result-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: 'Dancing Script', cursive;
+    color: #ff9900;
+}
+.quiz-result-elements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.properties{
+    font-size: 2.4rem;
+    opacity: 0.7;
+    font-weight: 700;
+    padding: 0.5rem;
+}
+.values{
+    font-size: 3rem;
+    font-weight: 800;
+    opacity: 1 !important;
+}
+.bottam-ele{
+    padding-bottom: 1.2rem;
+}
+.try-again-buttonj-space{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.try-again-button{
+    margin: 1.5rem 0rem 2.5rem 0rem;
+    font-size: 2rem;
+    background-color: #d100d1;
+    border: none;
+    color: white;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 5rem;
+    text-shadow: 0.2rem 0.2rem black ;
+    box-shadow: 0.2rem 0.2rem black;
+}
+.try-again-button:hover{
+    background-color: #b800b8;
+    cursor: pointer;
+}

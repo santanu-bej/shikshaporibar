@@ -1,0 +1,60 @@
+    <div class="header">Contact page</div>
+    <div class="contact-auther">
+        <div class="message-box">
+            <form action="./contact.php" method="post">
+                <div class="hed">send message</div>
+                <div class="name">
+                    <input type="text" name="name" id="name" class="inputs" placeholder="Name*" required>
+                </div>
+                <div class="email-in">
+                    <input type="email" name="email" id="email" class="inputs" placeholder="Email*" required>
+                </div>
+                <div class="phone">
+                    <input type="tel" pattern="[0-9]{10}" name="phone" id="phone" class="inputs" placeholder="Phone*"
+                        required>
+                </div>
+                <div class="message">
+                    <textarea onkeyup="textAreaAdjust(this)" name="message" id="message" class="inputs"
+                        placeholder="Your Message*" required></textarea>
+                    <script>
+                    function textAreaAdjust(element) {
+                        element.style.height = "1px";
+                        element.style.height = (0 + element.scrollHeight) + "px";
+                    }
+                    </script>
+                </div>
+                <div class="button">
+                    <button type="submit" name="messagesubmit"><span class="b-text">send</span><i class="material-icons">send</i></button>
+                </div>
+            </form>
+        </div>
+        <div class="telegram">
+            <div class="hed">join telegram</div>
+            <div class="tele-link"><i>join our </i><span class="link"
+                    onclick="location.href = 'https:\\\\facebook.com'">telegram<i class="fa fa-telegram"></i></span><i>
+                    group..</i></div>
+        </div>
+    </div>
+    <hr>
+    <div class="contact-devolopers">
+        <div class="hed">contact developer</div>
+        <div class="tele-link"><i>
+                want to build a website like this, or any kind of software like mobile apps, desktop app for your
+                business, blog, teaching purpose or want to hire software developers to fix bugs in your existing
+                software then contact through below <i class="fas fa-hand-point-down"></i> details..
+            </i></div>
+        <div class="info">
+            <div class="contact-email" onclick="location.href = 'mailto: santanubej8@gmail.com'"><i class="material-icons">email</i>Email</div>
+            <div class="contact-linkedin"><i class="fa fa-linkedin-square"></i>Linkedin</div>
+            <div class="contact-phone"><i class='fas fa-phone-alt' style='color:white'></i>Phone</div>
+            <div class="facebook"><i class="fa fa-facebook-square"></i>Facebook</div>
+        </div>
+        <div class="feedback-form">
+            <iframe id="contact-form"
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdUoJdXhvsAzyxs2_XjUyriUpPktmyEbV69sowqmcZoqCpFkA/viewform?embedded=true"
+                frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
+        </div>
+        <div class="go_back" onclick="location.href = './'">
+            back to home
+        </div>
+    </div>
